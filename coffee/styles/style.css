@@ -173,12 +173,6 @@ footer a:hover {
 
     #selected {
       text-shadow: 3px 2px 10px rgb(152, 0, 117);
-    } 
-    nav a {
-      color: black;
-    }
-    nav a:hover {
-      color: brown;
     }
     main {
       max-height: 100%;
