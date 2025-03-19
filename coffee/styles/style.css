@@ -23,8 +23,8 @@ header {
   grid-area: header;
 }
 header h1 {
-  color: white;
-  text-shadow: 2px 2px 5px black;
+  color: black;
+
 }
 
 /* menu */
@@ -42,7 +42,15 @@ nav h2 {
   text-shadow: 3px 2px 10px rgb(152, 0, 117);
 } 
 nav a {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
   transition-duration: 0.6s;
+  background-color: darkslateblue;
+  border-radius: 10px;
+  padding:2px 12px;
+  text-align: center;
+
 }
 nav a:hover {
   color: black;
@@ -161,8 +169,6 @@ footer a:hover {
 
     header h1 {
       text-align: center;
-      color: lightpink;
-      text-shadow: 2px 2px 5px black;
     }
 
     #selected {
